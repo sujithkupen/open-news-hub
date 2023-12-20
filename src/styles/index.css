@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  background-color: #31304d;
+  font-family: "Roboto";
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  color: aliceblue;
+  background-color: #161a30;
+  align-items: center;
+}
+
+nav > div{
+  display: flex;
+  justify-content: space-space-between;
+}
+
+.nav-links {
+  color: azure;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: larger;
+}
+
+.news-items {
+  color: aliceblue;
+  padding: 20px;
+}
+
+.news-items > p {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.news-items > a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.news-tabs {
+  display: flex;
+  flex-direction: column;
+  padding-left: 400px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #444267;
+  padding: 20px;
+  border-radius: 10px;
+  margin : 50px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.title-login{
+  text-align: center;
+  color: #45a049;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  background-color: #555580;
+  border: 1px solid #6b6b8e;
+  border-radius: 5px;
+  color: #ffffff;
+  margin: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.post-button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+
+
+.post-button:hover {
+  background-color: #45a049;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+html {
+    overflow: hidden;
+    height: 100%;
+}
